@@ -11,6 +11,18 @@ final appRouter = GoRouter(
     GoRoute(
       path: '/state-provider',
       builder: (context, state) => const StateProviderScreen(),
-    )
+    ),
+    GoRoute(
+      path: '/future-provider',
+      builder: (context, state) => const PokemonScreen(),
+    ),
+    GoRoute(
+      path: '/stream-provider',
+      builder: (context, state) => const StreamScreen(),
+    ),
+    GoRoute(
+      path: '/state-notifier-provider',
+      builder: (context, state) => const TodosScreen(),
+    ),
   ],
 );

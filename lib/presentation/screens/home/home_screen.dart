@@ -24,8 +24,23 @@ class _HomeScreenView extends StatelessWidget {
       children: const [
         _CustomListTitle(
           title: 'State Provider',
-          subTitle: 'Simple state',
+          subTitle: 'A simple state',
           location: '/state-provider',
+        ),
+        _CustomListTitle(
+          title: 'Future Provider',
+          subTitle: 'A simple future + Family',
+          location: '/future-provider',
+        ),
+        _CustomListTitle(
+          title: 'Stream Provider',
+          subTitle: 'A stream provider',
+          location: '/stream-provider',
+        ),
+        _CustomListTitle(
+          title: 'State Notifier Provider',
+          subTitle: 'A provider with custom state',
+          location: '/state-notifier-provider',
         ),
       ],
     );
